@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
+  m_Name: ImportantQuestion
+  m_EditorClassIdentifier: 
+  _info: "los vectores de posici\xF3n u = i - 2.i + k, v = 3i + 2j - 3k y w = 9i
+    - 2j - 3.k son coplanares y la ecuaci\xF3n del plano que los contiene es "
+  _answers:
+  - _info: 4x + 6y + 4z = 0
+    _isCorrect: 0
+  - _info: 4x + 6y + 8z = 0
+    _isCorrect: 1
+  - _info: 4x + 6y + 16z = 0
+    _isCorrect: 0
+  - _info: 4x + 6y + 32z = 0
+    _isCorrect: 0
+  _useTimer: 0
+  _timer: 30
+  _answerType: 1
+  _addScore: 50
